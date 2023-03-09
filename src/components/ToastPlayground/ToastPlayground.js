@@ -18,7 +18,7 @@ function ToastPlayground() {
 
   function popToast(event) {
     event.preventDefault();
-    createToast(message, variant)
+    createToast(message, variant);
     setMessage('');
     setVariant(VARIANT_OPTIONS[0]);
   }
